@@ -1,0 +1,821 @@
+/* flexbox */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+    height: 360.11px;
+    padding-top: 200px;
+    }
+
+.flexy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.spammy {
+    font-weight: 400px;
+    position: relative;
+width: 404px;
+height: 86px;
+left: 171px;
+top: 390px;
+
+font-family: Neusa Next Std;
+font-style: normal;
+font-size: 48px;
+line-height: 41px;
+color: #F2EFE5;
+/* or 85% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.3px;
+
+/* cream */
+
+color: #F2EFE5;
+}
+
+
+
+h1 {
+    font-family: diazo-mvb-ex-cond, sans-serif;
+}
+
+li {
+    font-family: diazo-mvb-ex-cond, sans-serif;
+}
+
+.taters {
+/* position: absolute; */
+/* display: flex; */
+/* left: 52.01%; */
+/* right: 4.65%; */
+/* top: 85%; */
+z-index:-1;
+background-color: lavenderblush;
+}
+
+.homeFacks {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+/* position: absolute; */
+width: 540px;
+/* height: 344px; */
+/* left: 100px; */
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: static;
+    height: 169px;
+    /* left: 0px;
+    right: 0px; */
+    top: 164px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* margin: 44px 0px; */
+}
+
+.left {
+    /* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 255px;
+height: 180px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 30px;
+}
+
+.beet {
+position: relative;
+width: 100%;
+height: 593px;
+top: 100%;
+bottom: 0;
+
+background: #F2EFE5;
+}
+
+.productFlex {
+    align-self: auto;
+    }
+
+.infoFlex {
+
+    align-self: auto;
+    }
+
+.companyFlex {
+
+    align-self: auto;
+    }
+
+.subscribeFlex {
+    align-self: auto;
+    background: #FFFFFF;
+mix-blend-mode: normal;
+width: 338px;
+height: 241.32px;
+left: 63.82%;
+right: 12.71%;
+top: 16.86%;
+bottom: 39.63%;
+}
+
+.compostFacks {
+    position: static;
+height: 132px;
+left: 0px;
+right: 0px;
+top: 48px;
+
+font-family: Neusa Next Std;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+
+letter-spacing: 0.3px;
+
+/* Light / Gray dark */
+
+color: #737B7D;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+.compostFacks2 {
+    position: static;
+height: 110px;
+left: 0px;
+right: 0px;
+top: 48px;
+
+font-family: Neusa Next Std;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+
+letter-spacing: 0.3px;
+
+/* Light / Gray dark */
+
+color: #737B7D;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+.right {
+    /* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 255px;
+height: 158px;
+/* left: 285px; */
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 30px;
+}
+
+/* Food takes up more space in U.S. landfills than anything else. we can change that! */
+
+.factoid {
+position: static;
+height: 120px;
+left: 0.5px;
+/* right: 0.5px; */
+top: calc(50% - 120px/2 - 112px);
+
+font-family: Diazo MVB Cond;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 40px;
+/* or 125% */
+
+letter-spacing: 0.1px;
+
+/* Light / Black */
+
+color: #373F41;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 44px 0px;
+}
+
+#rp {
+    font-family: diazo-mvb-ex-cond, sans-serif;
+    font-size: 40px;
+}
+
+li:hover {
+    color: white;
+}
+
+li:active {
+    text-decoration: underline;
+    text-decoration-color: #D4C0AB;
+}
+
+.footerUI {/* Footer UI */
+
+
+    position: absolute;
+    width: 1074px;
+    height: 360.11px;
+    left: 183px;
+    top: 93.54px;}
+
+    .productBox {
+        position: absolute;
+width: 96px;
+height: 161px;
+left: 183px;
+top: 124px;
+    }
+
+.informationBox {position: absolute;
+    width: 83px;
+    height: 129px;
+    left: 466px;
+    top: 124px;}
+
+
+.companyBox {
+position: absolute;
+width: 110px;
+height: 118.79px;
+left: 698px;
+top: 123.47px;
+}
+
+.subscribeBox {
+    left: 66.74%;
+    right: 15.62%;
+    top: 22.26%;
+    bottom: 44.86%;    
+}
+
+/* .terms {
+width: 264px;
+height: 16.84px;
+left: 602px;
+top: 429.33px;
+
+}
+
+.subscribe {
+left: 66.74%;
+right: 28.12%;
+top: 22.26%;
+bottom: 73.02%;
+}
+
+.rectangle2 {
+    position: absolute;
+left: 63.82%;
+right: 12.71%;
+top: 16.86%;
+bottom: 39.63%;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+}
+
+.product{
+position: absolute;
+left: 0%;
+right: 59.38%;
+top: 0%;
+bottom: 87.58%;
+} */
+
+.activeTab {
+
+font-family: Neusa Next Std;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;}
+/* identical to box height, or 125% */
+
+
+.almostBlack {
+
+color: #342D29;}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-size: 62.5%;
+    font-size: 10px;
+}
+
+
+/* Navbar section */
+
+.nav {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 2.4rem;
+}
+
+
+
+/* Home section */
+
+.home {
+    width: 100%;
+    height: 736px;
+    background-image: url(https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-position: center top;
+	background-size:cover;
+}
+
+.navTrigger {
+    display: none;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+
+/* Media qurey section */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navTrigger {
+        display: block;
+    }
+    .nav div.logo {
+        margin-left: 15px;
+    }
+    .nav div.main_list {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav div.show_list {
+        height: auto;
+        display: none;
+    }
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #111;
+        /*same background color of navbar*/
+        background-position: center top;
+    }
+    .nav div.main_list ul li {
+        width: 100%;
+        text-align: right;
+    }
+    .nav div.main_list ul li a {
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    .nav div.media_button {
+        display: block;
+    }
+}
+
+
+/* Animation */
+/* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
+
+.navTrigger {
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    margin: auto;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+}
+
+.navTrigger i {
+    background-color: #fff;
+    border-radius: 2px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+}
+
+.navTrigger i:nth-child(1) {
+    -webkit-animation: outT 0.8s backwards;
+    animation: outT 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger i:nth-child(2) {
+    margin: 5px 0;
+    -webkit-animation: outM 0.8s backwards;
+    animation: outM 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger i:nth-child(3) {
+    -webkit-animation: outBtm 0.8s backwards;
+    animation: outBtm 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger.active i:nth-child(1) {
+    -webkit-animation: inT 0.8s forwards;
+    animation: inT 0.8s forwards;
+}
+
+.navTrigger.active i:nth-child(2) {
+    -webkit-animation: inM 0.8s forwards;
+    animation: inM 0.8s forwards;
+}
+
+.navTrigger.active i:nth-child(3) {
+    -webkit-animation: inBtm 0.8s forwards;
+    animation: inBtm 0.8s forwards;
+}
+
+@-webkit-keyframes inM {
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@keyframes inM {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes outM {
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@keyframes outM {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@-webkit-keyframes inT {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@keyframes inT {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes outT {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@keyframes outT {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes inBtm {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@keyframes inBtm {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@-webkit-keyframes outBtm {
+    0% {
+        -webkit-transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        -webkit-transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+@keyframes outBtm {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-9px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-9px) rotate(135deg);
+    }
+}
+
+.affix {
+    padding: 0;
+    background-color: #111;
+}
+
+
+
+
+.myH2 {
+	text-align:center;
+	font-size: 4rem;
+}
+.myP {
+	text-align: justify;
+	padding-left:15%;
+	padding-right:15%;
+	font-size: 20px;
+}
+
+@media all and (max-width:700px){
+	.myP {
+		padding:2%;
+	}
+}
+
+/* Composting. It’s easier than you think. */
+
+.home1{
+position: absolute;
+width: 404px;
+height: 86px;
+left: 171px;
+top: 311px;
+
+font-family: Neusa Next Std;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 41px;
+color: #F2EFE5;
+/* or 85% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.3px;
+
+/* cream */
+
+color: #F2EFE5;
+}
+
+.secondary {
+/* Auto Layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 24px;
+
+position: absolute;
+width: 219px;
+height: 48px;
+left: 171px;
+top: 540px;
+
+/* Light tan */
+
+background: #D4C0AB;
+border: none;
+border-radius: 4px;
+}
+
+.rollUp {
+    position: static;
+width: 140px;
+height: 16px;
+left: 24px;
+top: 16px;
+
+font-family: Neusa Next Std;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+
+/* almost black */
+
+color: #342D29;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 19px;
+}
+
+.arrow {
+    /* Group */
+
+
+position: static;
+left: 83.56%;
+right: 10.96%;
+top: 39.06%;
+bottom: 39.06%;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 19px;
+}
