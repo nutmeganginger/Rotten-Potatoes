@@ -1,16 +1,145 @@
 <!DOCTYPE html>
 <html>
-  <head>
-<!-- Fonts -->
-    <link rel="stylesheet" href="https://use.typekit.net/ycm7rwk.css">
-    <link rel="stylesheet" href="https://use.typekit.net/ycm7rwk.css">
-    <!-- CSS -->
-    <link rel="stylesheet" href="stylesheet.css">
-    <title>Rotten Potatoes - Guide</title>
-  </head>
-  <body>
-    ...
-    <a href="html/contact.html">Contact Information</a>
-    ...
-  </body>
+<head>
+        <!-- Fonts -->
+            <link rel="stylesheet" href="https://use.typekit.net/ycm7rwk.css">
+            <link rel="stylesheet" href="https://use.typekit.net/ycm7rwk.css">
+            <!-- CSS -->
+            <link rel="stylesheet" href="/css/stylesheet.css">
+            <title>Rotten Potatoes - Guide</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <img src="/images/logo white-02.png" style="height: 100px;">
+                <div class="main_list"> <a href="/index.html" id="rottenpotatoes">Rotten Potatoes</a></div>
+            </div>
+
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="/html/about.html">What Is It?</a></li>
+                    <li><a href="/html/guide.html">Guide</a></li>
+                    <li><a href="#">Local Compost</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#"><img src="/images/Group.png"></a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    <div class="guideNav">
+        <div class="blankSpace">
+        </div>
+        <div  class="compostingGuide">
+            <h1>Composting Guide</h1>
+        </div>
+    </div>
+    <div class="content">
+        <div class="sideBar">
+            <p>Composting Steps</p>
+            <p>Tutorials</p>
+            <p>Compostable Items</p>
+        </div>
+        <div class="contentCopy">
+            <h1>
+                Things to know before you start
+            </h1>
+            <p>
+                All composting requires three basic ingredients:
+            </p>
+            <p>
+               <b>Browns</b>  - This includes materials such as dead leaves, branches, and twigs.
+            </p>
+            <p>  
+                <b>Greens</b> - This includes materials such as grass clippings, vegetable waste, fruit scraps, and coffee grounds.
+            </p>
+            <p>     
+                <b>Water</b> - Having the right amount of water, greens, and browns is important for compost development.
+            </p>
+            <br>
+            <h1>
+                Let’s Start!
+            </h1>
+            <p>
+                Composting is a process that turns food scraps into useable soil. It’s actually pretty cool—microorganisms work together to break down organic materials (like leftover stems, fruit peels, and eggshells) to create a rich soil that provides lots of nutrients to all sorts of different plants. Doing it can help you greatly reduce the amount of food waste you send to a landfill.
+            </p>
+            <br>
+            <h1>
+                Budget Vs. Investment
+            </h1>
+            <p>
+                We’ll dig deeper into the types of composting below.
+            </p>
+            <br>
+            <div class="digDiv">
+                <h1 class="lightBox">
+                    Let's Dig Into the Types of Composting
+                </h1>
+                <p class="lightBox">
+                        There are many different ways to make a compost pile; we have provided the following for general reference. Helpful tools include pitchforks, square-point shovels or machetes, and water hoses with a spray head. Regular mixing or turning of the compost and some water will help maintain the compost.
+                </p>
+                <button class="tanButton">
+                    Read More
+                </button>
+            </div>
+        </div>
+        <div class="dirtSide">
+            <img src="/images/dirtSide.png">
+        </div>
+    </div>
+    
+
+    <footer class="footer">
+        <div class="flex-container">
+            <div class="productFlex">
+                <p class="product activeTab almostBlack">Menu</p>
+                <p class="product tab almostBlack">What Is It?</p>
+                <p class="product tab almostBlack">Local Compost</p>
+                <p class="product tab almostBlack">Community</p>
+            </div>
+            <div class="infoFlex">
+                <p class="information activeTab almostBlack">Information</p>
+                <p class="information tab almostBlack">Blog</p>
+                <p class="information tab almostBlack">Support</p>
+            </div>
+            <div class="companyFlex">
+                <p class="company activeTab almostBlack">Company</p>
+                <p class="company tab almostBlack">About</p>
+                <p class="company tab almostBlack">Contact Us</p>
+            </div>
+            <div class="subscribeFlex">
+                <p class="subscribe activeTab almostBlack">Subscribe</p>
+            </div>
+        </div>
+        <div class="flexLine">
+            <div>
+                <img src="/images/logo-01.png" style="height: 200px;">
+            </div>
+            <div class="line"></div>
+        </div>
+    </footer>
+
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+</body>
+
 </html>

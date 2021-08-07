@@ -5,12 +5,139 @@
             <link rel="stylesheet" href="https://use.typekit.net/ycm7rwk.css">
             <link rel="stylesheet" href="https://use.typekit.net/ycm7rwk.css">
             <!-- CSS -->
-            <link rel="stylesheet" href="stylesheet.css">
-            <title>Rotten Potatoes - Guide</title>
+            <link rel="stylesheet" href="/css/stylesheet.css">
+            <title>Rotten Potatoes - What Is It?</title>
           </head>
-  <body>
-    ...
-    <a href="html/contact.html">Contact Information</a>
-    ...
-  </body>
-</html>
+          <body>
+            <nav class="nav">
+                <div class="container">
+                    <div class="logo">
+                        <img src="/images/logo white-02.png" style="height: 100px;">
+                        <div class="main_list"> <a href="/index.html" id="rottenpotatoes">Rotten Potatoes</a></div>
+                    </div>
+        
+                    <div id="mainListDiv" class="main_list">
+                        <ul class="navlinks">
+                            <li><a href="/html/about.html">What Is It?</a></li>
+                            <li><a href="/html/guide.html">Guide</a></li>
+                            <li><a href="#">Local Compost</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#"><img src="/images/Group.png"></a></li>
+                        </ul>
+                    </div>
+                    <span class="navTrigger">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </span>
+                </div>
+            </nav>
+            <div class="guideNav">
+                <div class="blankSpace">
+                </div>
+                <div  class="compostingGuide">
+                    <h1>What Is Composting?</h1>
+                </div>
+            </div>
+            <div class="content">
+                <div class="sideBar">
+                    <p>Impacts</p>
+                    <p>Benefits</p>
+                </div>
+                <div class="aboutCopy">
+                    <div>
+                        <img src="/images/compost.png">
+                    </div>
+                    <div class="aboutFlex">
+                        <div class="compostableItems">
+                            <img src="/images/image 4.png">
+                            <h3>
+                                Compostable Items
+                            </h3>
+                            <p>
+                                Click to find out what items are compostable
+                            </p>
+                        </div>
+                        <div class="play">
+                            <img src="/images/image 8.png">
+                            <h3>
+                                play
+                            </h3>
+                            <p>
+                                Think you know what items you can compost? Click to test your skills.
+                            </p>
+                        </div>
+                        <div class="lowWaste">
+                            <img src="/images/image 2.png">
+                            <h3>
+                                Low Waste Lifestyle
+                            </h3>
+                            <p>
+                                Here are some easy steps you can follow to live a sustainable lifestyle.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="digDiv">
+                        <h1 class="lightBox">
+                            Let's Dig Into the Types of Composting
+                        </h1>
+                        <p class="lightBox">
+                                There are many different ways to make a compost pile; we have provided the following for general reference. Helpful tools include pitchforks, square-point shovels or machetes, and water hoses with a spray head. Regular mixing or turning of the compost and some water will help maintain the compost.
+                        </p>
+                        <button class="tanButton">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        
+            <footer class="footer">
+                <div class="flex-container">
+                    <div class="productFlex">
+                        <p class="product activeTab almostBlack">Menu</p>
+                        <p class="product tab almostBlack">What Is It?</p>
+                        <p class="product tab almostBlack">Local Compost</p>
+                        <p class="product tab almostBlack">Community</p>
+                    </div>
+                    <div class="infoFlex">
+                        <p class="information activeTab almostBlack">Information</p>
+                        <p class="information tab almostBlack">Blog</p>
+                        <p class="information tab almostBlack">Support</p>
+                    </div>
+                    <div class="companyFlex">
+                        <p class="company activeTab almostBlack">Company</p>
+                        <p class="company tab almostBlack">About</p>
+                        <p class="company tab almostBlack">Contact Us</p>
+                    </div>
+                    <div class="subscribeFlex">
+                        <p class="subscribe activeTab almostBlack">Subscribe</p>
+                    </div>
+                </div>
+                <div class="flexLine">
+                    <div>
+                        <img src="/images/logo-01.png" style="height: 200px;">
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </footer>
+        
+            <!-- Jquery needed -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="js/scripts.js"></script>
+        
+            <!-- Function used to shrink nav bar removing paddings and adding black background -->
+            <script>
+                $(window).scroll(function () {
+                    if ($(document).scrollTop() > 50) {
+                        $('.nav').addClass('affix');
+                        console.log("OK");
+                    } else {
+                        $('.nav').removeClass('affix');
+                    }
+                });
+            </script>
+        </body>
+        
+        </html>
